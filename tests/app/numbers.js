@@ -11,7 +11,6 @@ describe('numbers', function() {
       expect(numbersAnswers.valueAtBit(65, 7)).to.eql(1);
       expect(numbersAnswers.valueAtBit(128, 1)).to.eql(0);
     });
-
     it('you should be able to return the base10 representation of a binary string', function() {
       expect(numbersAnswers.base10('11000000')).to.eql(192);
     });
